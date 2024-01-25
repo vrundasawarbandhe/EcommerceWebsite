@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #ffffff; /* White background for the form wrapper */
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #1b6ca8; /* Dark blue color for the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.recover {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.recover a {
+    text-decoration: none;
+    color: #1b6ca8; /* Dark blue color for the link */
+}
+
+.recover a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #1b6ca8; /* Dark blue color for the button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #155a8a; /* Slightly darker shade on hover */
+}
+
+.error {
+    color: red;
+}
+
+.member {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.member a {
+    text-decoration: none;
+    color: #1b6ca8; /* Dark blue color for the link */
+    margin: 0 5px;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
