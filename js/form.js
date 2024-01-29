@@ -69,7 +69,7 @@ function loginUser() {
     if (loginUsername === storedUsername && loginPassword === storedPassword) {
         document.getElementById('loginError').innerText = 'Login successful!';
         // You can redirect to a new page or perform other actions here
-        window.location.href = 'index.html';
+        window.location.href = 'product.html';
     } else {
         document.getElementById('loginError').innerText = 'Invalid username or password.';
     }
