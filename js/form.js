@@ -47,7 +47,7 @@ function registerUser() {
     if (true) {
         alert('successful');
         // document.getElementById('regError').innerText = 'registration successful';
-        window.location.href = 'login.html';
+        window.location.href = 'Login.html';
     }
     else {
 
